@@ -1,0 +1,9 @@
+.auroramenu2 li>ul{display:none}
+.auroramenu-default2,.auroramenu-default2 ul{padding:0;list-style-type:none}
+/*.auroramenu-default2>li>a{border-bottom:1px #4261b8 solid} */
+.auroramenu-default2>li>a:after{content:"⋁";float:right;color:#474747;font-weight: bold;}
+.auroramenu-default2>li>a.open:after{content:"⋀";}
+.auroramenu-default2 a{/*color:#fff;background-color:#496aca;*/display:block;padding:10px;transition:background-color .5s ease}
+.auroramenu-default2 a:hover,.auroramenu-default a:focus{text-decoration:none}
+.auroramenu-default2 a:hover{background-color:#DCDCDC;}
+.auroramenu-default2 ul a{/*background-color:#4261b8;*/font-size:.9em;padding-left:20px}
